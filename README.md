@@ -1,44 +1,35 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+# PathFinder
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 40<br>
+**Conteúdo da Disciplina**: Grafos1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0112028/  |  André Goretti Motta |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+PathFinder é um jogo que desafia o usuário a tentar adivinhar o caminho mais rápido entre 2 nós (A e F), no qual vc pode selecionar a dificuldade para ter mais tempo ou não para visualizar o grafo montado aleatoriamente pelo programa a. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![image](screenshots/print1.jpeg)
+![image](screenshots/print2.jpeg)
+![image](screenshots/print3.jpeg)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+#### Para rodar na sua máquina vc precisa desses requisitos:
+#### NetworkX:
+  >  $ pip install networkx[all]
+
+#### MatplotLib
+> python -m pip install -U pip
+ > python -m pip install -U matplotlib
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Assim que executar o programa, ele irá lhe perguntar qual a dificuldade que você prefere, responda somente com números de 1 a 4 correspondente a dificuldade escolhida, após isso, visualize o grafo gerado aleatoriamente, espere o tempo de acordo com a dificuldade ou feche a imagem. O programa irá lhe pedir o número de nós entre A e F (contando eles), após sua resposta, ele irá lhe pedir pra digitar todos os nós correspondentes e falar se vc acertou ou não.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
 
 
 
